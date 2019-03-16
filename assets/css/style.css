@@ -1,0 +1,159 @@
+ /* INDEX -------------------------------------------------------------------------*/
+
+body{   background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+.containerIndex{
+    display: block;
+    border-radius: 10px;
+    color: white;
+    width: 960px;
+    padding: 5px;
+    background-color: black;
+    margin: 100px auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+h5{
+    font-size: 14px;
+    font-style: italic;
+}
+
+h6{
+    font-size: 10px;
+}
+
+#enterBtn{
+    margin: 10px auto 40px auto;
+    position: relative;
+    left: 380px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#enterBtn:hover {background-color: darkgrey;}
+    
+#enterBtn:active {
+  background-color:lightgrey;
+  transform: translateY(4px);
+}
+
+.title{
+    margin: 60px 10px 40px 20px;
+}
+
+.quotes{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* CONTACT ------------------------------------------------------------------------------------------------*/
+
+nav{
+    background-color: black;
+}
+
+form{
+    margin: 100px auto;
+    width: 600px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    margin: 70px auto;
+}
+
+.containerContact{
+    width: 550px;
+    margin: 20px auto;
+}
+
+#containerTitle{
+    font-style: bold;
+    font-size: 24px;
+    margin: 20px;
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+/* BIO ------------------------------------------------------------------------------------------------*/
+
+#myPhoto{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.containerBio{
+    width: 1000px;
+    background-color: black;
+    margin: 70px auto;
+    border-radius: 10px;
+    color: white;
+}
+
+#bio{
+    margin: 10px;
+    padding: 10px;
+   }
+
+
+/* PORTFOLIO ------------------------------------------------------------------------------------------------*/
+
+.containerPortfolio{
+    width: 1000px;
+    height: 550px;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#portfolio{
+    height: 180px;
+    width: 200px;
+  }
+
+.portfolio1, .portfolio2{
+    margin: 0 auto;
+    width: 900px;
+    padding: 10px;
+}
+
+#trivia, #triviaCode, #crystal, #crystalCode, #nightOut, #nightOutCode, #train, #trainCode, #moms, #momsCode,
+#psychic, #psychicCode, #liri, #liriCode, #project2, #project2Code{
+    height: 130px;
+    width: 210px;
+    padding: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.techs{
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#pCode{
+    color: white;
+    margin: 10px 0px 10px 50px;
+}
+
+
+
+
